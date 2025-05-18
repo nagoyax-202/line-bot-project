@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 # LINE Bot のチャネルアクセストークン（コード内に直接記述する場合）
-LINE_CHANNEL_ACCESS_TOKEN = 'ここにあなたのチャネルアクセストークンを貼ってください'
+LINE_CHANNEL_ACCESS_TOKEN = 'VQfufkIZoWjkUSZUvzz9HrkJkbRoaDlRmu6FWktuMXqjpm3WRWyw/RwEcQ4wCyKdgviivyQGSbOqhrr4Pf3kQkKe3xQ3vtGhb7oPVQnwWSapJNrBvnGaDWIDGYR5Bfo6afJs5Zq4UFyEcPI2D0qeXQdB04t89/1O/w1cDnyilFU='
 
 # ヘッダーの準備（LINEのAPIを呼ぶために必要）
 headers = {
